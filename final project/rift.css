@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(images/background.jpg) top no-repeat black;
+    background-position: center;
+    color: black;
+    animation: fadeIn 1s linear;
+}
+
+nav ul li.L img {
+    width: 30%;
+    padding: 0px;
+    line-height: 1.5em;
+}
+
+nav ul li.L {
+    padding: 0;
+    margin: 0;
+    line-height: 1.4em;
+}
+
+nav {
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    display: block;
+}
+
+nav ul {
+    width: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(201, 139, 55);
+}
+
+nav ul a:hover {
+    display: block;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+nav ul li {
+    width: 12%;
+    float: left;
+    font-size: 2em;
+    color: white;
+    list-style: none;
+    padding-bottom: 15px;
+    background-color: rgb(10, 10, 8);
+    padding-top: 10px;
+}
+
+header {
+    font-size: 2em;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-left: 20px;
+}
+
+hr {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+section {
+    float: left;
+    background-color: rgb(255, 218, 185, 0.7);
+}
+
+section p {
+    padding-left: 20px;
+    font-size: 1.3em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+section table {
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table th {
+    font-size: 1.3em;
+    border: 1px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+table td {
+    padding-left: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+section.guide {
+    margin: auto;
+    width: 100%;
+    background-color: rgb(255, 218, 185, 0.7);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.guide img {
+    margin-left: 34%;
+    width: 30%;
+    border: 5px outset gray;
+}
+
+nav {
+    width: 100%;
+}
+
+nav.toplane {
+    margin: auto;
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+
+.toplane ul {
+    margin-left: 10%;
+}
+
+.toplane ul li {
+    width: 15%;
+    margin: auto;
+    padding-right: 15px;
+    background-color: rgb(0, 0, 0, 0);
+    color: black;
+}
+
+nav.midlane {
+    margin: auto;
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+
+.midlane ul {
+    margin-left: 10%;
+}
+
+.midlane ul li {
+    width: 15%;
+    margin: auto;
+    padding-right: 15px;
+    background-color: rgb(0, 0, 0, 0);
+    color: black;
+}
+
+nav.botlane {
+    margin: auto;
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+
+.botlane ul {
+    margin-left: 10%;
+}
+
+.botlane ul li {
+    width: 15%;
+    margin: auto;
+    padding-right: 15px;
+    background-color: rgb(0, 0, 0, 0);
+    color: black;
+}
+
+nav.supports {
+    margin: auto;
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+
+.supports ul {
+    margin-left: 10%;
+}
+
+.supports ul li {
+    width: 15%;
+    margin: auto;
+    padding-right: 15px;
+    background-color: rgb(0, 0, 0, 0);
+    color: black;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    color: rgb(125, 96, 51);
+    margin: auto;
+    padding-top: 15px;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+}
+
+footer img {
+    width: 7%;
+    padding-top: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

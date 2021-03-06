@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    width: 2000px;
+    margin-left: 15%;
+    margin-right: auto;
+    background: url(esports/background3.jpg) top center no-repeat black;
+    animation: fadein 2s linear;
+}
+
+nav ul li.L img {
+    padding-top: 5px;
+    width: 35%;
+}
+
+nav ul li.L {
+    margin: -1%;
+}
+
+nav {
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    display: block;
+}
+
+nav ul {
+    width: 100%;
+}
+
+nav ul li a {
+    width: 100%;
+    text-decoration: none;
+    color: rgb(201, 139, 55);
+}
+
+nav ul a:hover {
+    display: block;
+}
+
+nav ul li {
+    width: 13%;
+    float: left;
+    font-size: 2em;
+    color: white;
+    list-style: none;
+    padding-bottom: 15px;
+    background-color: rgb(10, 10, 8);
+    padding-top: 10px;
+}
+
+.nivoSlider {
+    width: 1280px;
+    height: 720px;
+    margin-left: 12%;
+}
+
+section {
+    width: 89%;
+    float: left;
+}
+
+div.main {
+    float: left;
+    width: 45%;
+    margin-left: 12%;
+    border-radius: 15px;
+    background: rgb(255, 218, 185, 0.7)
+}
+
+div.main header {
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+div.main hr {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main p {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.main iframe {
+    margin-left: 15%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+aside {
+    background: rgb(255, 218, 185, 0.7);
+    float: left;
+    text-align: center;
+    width: 26%;
+    margin-left: 15px;
+    font-size: 2em;
+    border-radius: 15px;
+}
+
+aside hr {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside iframe {
+    width: 90%;
+    padding: 15px;
+}
+
+footer {
+    width: 100%;
+    color: rgb(125, 96, 51);
+    margin: auto;
+    padding-top: 15px;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    margin-left: -7%;
+}
+
+footer img {
+    width: 7%;
+    padding-top: 20px;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+}
+
+img {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    display: block;
+}
+
+.nivoSlider {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+header {
+    font-size: 3em;
+    letter-spacing: 1.2em;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(201, 139, 55);
+}
